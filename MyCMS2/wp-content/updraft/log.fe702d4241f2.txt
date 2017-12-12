@@ -1,0 +1,389 @@
+0000.000 (0) Opened log file at time: Thu, 16 Nov 2017 08:21:20 +0000 on https://sik-projectnutrition.fr
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.12 WP: 4.9 PHP: 7.0.24 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.57 WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 91.1M | 94M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 1943746.1 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.026 (0) Semaphore (fd, zx53bi4g5goptions) being initialised
+0000.054 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.080 (0) Set semaphore last lock (fd) time to 2017-11-16 08:21:20
+0000.087 (0) Semaphore lock (fd) complete
+0000.117 (0) Backup run: resumption=0, nonce=fe702d4241f2, begun at=1510820480 (0s ago), job type=backup
+0000.126 (0) Scheduling a resumption (1) after 300 seconds (1510820780) in case this run gets aborted
+0000.145 (0) Checking if we have a zip executable available
+0000.149 (0) Testing: /usr/bin/zip
+0000.159 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.164 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.169 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.176 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.184 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.195 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.199 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.204 (0) Working binary zip found: /usr/bin/zip
+0000.212 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.216 (0) Creation of backups of directories: beginning
+0000.229 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.337 (0) Total entities for the zip file: 1277 directories, 9398 files (0 skipped as non-modified), 122.7 MB
+0000.343 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.348 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.353 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.359 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.366 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.373 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13 MB, 9398 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.928 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: size is now: 4.60 MB
+0000.935 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 600 files added (on-disk size: 4659.9 KB)
+0000.941 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 700 files added (on-disk size: 4659.9 KB)
+0000.947 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 800 files added (on-disk size: 4659.9 KB)
+0000.951 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 900 files added (on-disk size: 4659.9 KB)
+0000.955 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1000 files added (on-disk size: 4659.9 KB)
+0000.959 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 9398 files batched, 501 (1002) added so far); re-opening (prior size: 4659.9 KB)
+0001.152 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: size is now: 6.90 MB
+0001.166 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1100 files added (on-disk size: 7110.9 KB)
+0001.177 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1200 files added (on-disk size: 7110.9 KB)
+0001.189 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1300 files added (on-disk size: 7110.9 KB)
+0001.199 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1400 files added (on-disk size: 7110.9 KB)
+0001.211 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1500 files added (on-disk size: 7110.9 KB)
+0001.222 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 9398 files batched, 501 (1503) added so far); re-opening (prior size: 7110.9 KB)
+0001.393 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: size is now: 11.40 MB
+0001.419 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1600 files added (on-disk size: 11660.2 KB)
+0001.445 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1700 files added (on-disk size: 11660.2 KB)
+0001.475 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1800 files added (on-disk size: 11660.2 KB)
+0001.505 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 1900 files added (on-disk size: 11660.2 KB)
+0001.528 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2000 files added (on-disk size: 11660.2 KB)
+0001.553 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 9398 files batched, 501 (2004) added so far); re-opening (prior size: 11660.2 KB)
+0001.813 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: size is now: 14.20 MB
+0001.867 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2100 files added (on-disk size: 14528.5 KB)
+0001.902 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2200 files added (on-disk size: 14528.5 KB)
+0001.961 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2300 files added (on-disk size: 14528.5 KB)
+0002.018 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2400 files added (on-disk size: 14528.5 KB)
+0002.070 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2500 files added (on-disk size: 14528.5 KB)
+0002.115 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 9398 files batched, 501 (2505) added so far); re-opening (prior size: 14528.5 KB)
+0002.461 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: size is now: 18.30 MB
+0002.628 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2600 files added (on-disk size: 18700.5 KB)
+0002.689 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2700 files added (on-disk size: 18700.5 KB)
+0002.749 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2800 files added (on-disk size: 18700.5 KB)
+0002.801 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 2900 files added (on-disk size: 18700.5 KB)
+0002.862 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3000 files added (on-disk size: 18700.5 KB)
+0002.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 9398 files batched, 501 (3006) added so far); re-opening (prior size: 18700.5 KB)
+0003.147 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3100 files added (on-disk size: 21545.1 KB)
+0003.168 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3200 files added (on-disk size: 21545.1 KB)
+0003.190 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3300 files added (on-disk size: 21545.1 KB)
+0003.212 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3400 files added (on-disk size: 21545.1 KB)
+0003.233 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3500 files added (on-disk size: 21545.1 KB)
+0003.254 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 9398 files batched, 501 (3507) added so far); re-opening (prior size: 21545.1 KB)
+0003.563 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3600 files added (on-disk size: 24181.9 KB)
+0003.593 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3700 files added (on-disk size: 24181.9 KB)
+0003.619 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3800 files added (on-disk size: 24181.9 KB)
+0003.632 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 3900 files added (on-disk size: 24181.9 KB)
+0003.645 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4000 files added (on-disk size: 24181.9 KB)
+0003.660 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 9398 files batched, 501 (4008) added so far); re-opening (prior size: 24181.9 KB)
+0003.894 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4100 files added (on-disk size: 25534.7 KB)
+0003.909 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4200 files added (on-disk size: 25534.7 KB)
+0003.923 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4300 files added (on-disk size: 25534.7 KB)
+0003.938 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4400 files added (on-disk size: 25534.7 KB)
+0003.954 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4500 files added (on-disk size: 25534.7 KB)
+0003.971 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 9398 files batched, 501 (4509) added so far); re-opening (prior size: 25534.7 KB)
+0004.084 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4600 files added (on-disk size: 25769.7 KB)
+0004.099 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4700 files added (on-disk size: 25769.7 KB)
+0004.114 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4800 files added (on-disk size: 25769.7 KB)
+0004.129 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 4900 files added (on-disk size: 25769.7 KB)
+0004.146 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5000 files added (on-disk size: 25769.7 KB)
+0004.161 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 9398 files batched, 501 (5010) added so far); re-opening (prior size: 25769.7 KB)
+0004.551 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5100 files added (on-disk size: 28228.3 KB)
+0004.567 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5200 files added (on-disk size: 28228.3 KB)
+0004.580 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5300 files added (on-disk size: 28228.3 KB)
+0004.593 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5400 files added (on-disk size: 28228.3 KB)
+0004.606 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5500 files added (on-disk size: 28228.3 KB)
+0004.617 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 9398 files batched, 501 (5511) added so far); re-opening (prior size: 28228.3 KB)
+0005.264 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5600 files added (on-disk size: 31059.9 KB)
+0005.279 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5700 files added (on-disk size: 31059.9 KB)
+0005.293 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5800 files added (on-disk size: 31059.9 KB)
+0005.310 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 5900 files added (on-disk size: 31059.9 KB)
+0005.323 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6000 files added (on-disk size: 31059.9 KB)
+0005.336 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 9398 files batched, 501 (6012) added so far); re-opening (prior size: 31059.9 KB)
+0005.619 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6100 files added (on-disk size: 32552.2 KB)
+0005.633 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6200 files added (on-disk size: 32552.2 KB)
+0005.647 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6300 files added (on-disk size: 32552.2 KB)
+0005.657 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6400 files added (on-disk size: 32552.2 KB)
+0005.665 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6500 files added (on-disk size: 32552.2 KB)
+0005.673 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 9398 files batched, 501 (6513) added so far); re-opening (prior size: 32552.2 KB)
+0006.037 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6600 files added (on-disk size: 34503.8 KB)
+0006.042 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6700 files added (on-disk size: 34503.8 KB)
+0006.048 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6800 files added (on-disk size: 34503.8 KB)
+0006.054 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 6900 files added (on-disk size: 34503.8 KB)
+0006.060 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7000 files added (on-disk size: 34503.8 KB)
+0006.065 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 9398 files batched, 501 (7014) added so far); re-opening (prior size: 34503.8 KB)
+0006.371 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7100 files added (on-disk size: 36848 KB)
+0006.377 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7200 files added (on-disk size: 36848 KB)
+0006.383 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7300 files added (on-disk size: 36848 KB)
+0006.388 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7400 files added (on-disk size: 36848 KB)
+0006.394 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7500 files added (on-disk size: 36848 KB)
+0006.400 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 9398 files batched, 501 (7515) added so far); re-opening (prior size: 36848 KB)
+0006.602 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7600 files added (on-disk size: 37900 KB)
+0006.607 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7700 files added (on-disk size: 37900 KB)
+0006.612 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7800 files added (on-disk size: 37900 KB)
+0006.616 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 7900 files added (on-disk size: 37900 KB)
+0006.621 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8000 files added (on-disk size: 37900 KB)
+0006.626 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 9398 files batched, 501 (8016) added so far); re-opening (prior size: 37900 KB)
+0006.946 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8100 files added (on-disk size: 40253.1 KB)
+0006.953 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8200 files added (on-disk size: 40253.1 KB)
+0006.960 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8300 files added (on-disk size: 40253.1 KB)
+0006.968 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8400 files added (on-disk size: 40253.1 KB)
+0006.976 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8500 files added (on-disk size: 40253.1 KB)
+0006.983 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.4 MB, 9398 files batched, 501 (8517) added so far); re-opening (prior size: 40253.1 KB)
+0007.731 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8600 files added (on-disk size: 45305.4 KB)
+0007.734 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8700 files added (on-disk size: 45305.4 KB)
+0007.738 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8800 files added (on-disk size: 45305.4 KB)
+0007.741 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 8900 files added (on-disk size: 45305.4 KB)
+0007.744 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 9000 files added (on-disk size: 45305.4 KB)
+0007.747 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 9398 files batched, 501 (9018) added so far); re-opening (prior size: 45305.4 KB)
+0007.936 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 9100 files added (on-disk size: 46038.7 KB)
+0007.941 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 9200 files added (on-disk size: 46038.7 KB)
+0007.951 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip.tmp: 9300 files added (on-disk size: 46038.7 KB)
+0008.643 (0) Created plugins zip (0) - 46953.2 KB in 8.4 s (5583.8 KB/s) (sha1: 2d1a7b83456698b539310a96519fba60648b7b43, sha256: cf07d705b7eb32f14f7fd0cf00f18ae8c8f7d8256bc901bae3fa680ffe290c43)
+0008.647 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.670 (0) Total entities for the zip file: 252 directories, 2097 files (0 skipped as non-modified), 26.4 MB
+0008.672 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.674 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.676 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.678 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.680 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.682 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 2097 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0009.011 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: size is now: 5.80 MB
+0009.015 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 600 files added (on-disk size: 5914 KB)
+0009.017 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 700 files added (on-disk size: 5914 KB)
+0009.018 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 800 files added (on-disk size: 5914 KB)
+0009.020 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 900 files added (on-disk size: 5914 KB)
+0009.022 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1000 files added (on-disk size: 5914 KB)
+0009.023 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 2097 files batched, 501 (1002) added so far); re-opening (prior size: 5914 KB)
+0009.092 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1100 files added (on-disk size: 6737.5 KB)
+0009.094 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1200 files added (on-disk size: 6737.5 KB)
+0009.098 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1300 files added (on-disk size: 6737.5 KB)
+0009.100 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1400 files added (on-disk size: 6737.5 KB)
+0009.102 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1500 files added (on-disk size: 6737.5 KB)
+0009.102 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 2097 files batched, 501 (1503) added so far); re-opening (prior size: 6737.5 KB)
+0009.221 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1600 files added (on-disk size: 7989.5 KB)
+0009.224 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1700 files added (on-disk size: 7989.5 KB)
+0009.226 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1800 files added (on-disk size: 7989.5 KB)
+0009.228 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 1900 files added (on-disk size: 7989.5 KB)
+0009.230 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: 2000 files added (on-disk size: 7989.5 KB)
+0009.231 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 2097 files batched, 501 (2004) added so far); re-opening (prior size: 7989.5 KB)
+0009.538 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip.tmp: size is now: 10.30 MB
+0009.734 (0) Created themes zip (0) - 12420 KB in 1.1 s (11427.4 KB/s) (sha1: 0721be36aea6573c50f6c0bd1667be47989c6964, sha256: 3efffc073bc9d8b83b1355d69fd333c13ca49c8bd51a9767f8b6bec996877fb7)
+0009.755 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.764 (0) Looking for candidates to back up in: /homepages/19/d708329264/htdocs/clickandbuilds/WordPress/MyCMS2/wp-content/uploads
+0009.773 (0) finding files: 2017: adding to list (1)
+0009.781 (0) finding files: the7-css: adding to list (2)
+0009.791 (0) finding files: revslider: adding to list (3)
+0009.801 (0) finding files: woocommerce_uploads: adding to list (4)
+0009.816 (0) finding files: wc-logs: adding to list (5)
+0009.829 (0) finding files: js_composer: adding to list (6)
+0009.839 (0) finding files: smile_fonts: adding to list (7)
+0009.847 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.869 (0) Total entities for the zip file: 138 directories, 332 files (0 skipped as non-modified), 9.2 MB
+0009.879 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.888 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.897 (0) Zip: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.109 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-uploads.zip.tmp: size is now: 7.20 MB
+0010.186 (0) Created uploads zip (0) - 7414.1 KB in 0.3 s (22376.7 KB/s) (sha1: 0a1dfaa6167eab485848574e5ba722b5d8eeb650, sha256: c471366c55cd082bf06eff717ab61ceb95d530c75c252da41165470e927e13bd)
+0010.187 (0) Beginning backup of other directories found in the content directory (index: 0)
+0010.188 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0010.188 (0) Looking for candidates to back up in: /homepages/19/d708329264/htdocs/clickandbuilds/WordPress/MyCMS2/wp-content
+0010.189 (0) finding files: index.php: adding to list (1)
+0010.189 (0) finding files: plugins: skipping: this is the plugins directory
+0010.190 (0) finding files: themes: skipping: this is the themes directory
+0010.190 (0) finding files: php.ini: adding to list (2)
+0010.191 (0) finding files: mu-plugins: adding to list (3)
+0010.191 (0) finding files: uploads: skipping: this is the uploads directory
+0010.192 (0) finding files: upgrade: skipping: excluded by options
+0010.192 (0) finding files: languages: adding to list (4)
+0010.193 (0) finding files: ngg: adding to list (5)
+0010.193 (0) finding files: gallery: adding to list (6)
+0010.193 (0) finding files: updraft: skipping: this is the updraft directory
+0010.195 (0) Total entities for the zip file: 6 directories, 31 files (0 skipped as non-modified), 3.9 MB
+0010.382 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-others.zip.tmp: size is now: 1.10 MB
+0010.395 (0) Created others zip (0) - 1110 KB in 0.2 s (5521 KB/s) (sha1: 71ed73e251d4e0a1698781424dea84551c2cedc8, sha256: 7010350f11b5a397185032818968fe0e12754803055b96575348217302664158)
+0010.398 (0) Saving backup status to database (elements: 8)
+0010.400 (0) Beginning creation of database dump (WordPress DB)
+0010.402 (0) Testing: /usr/bin/mysqldump
+0010.421 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `zx53bi4g5goptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1235 bytes total)
+0010.424 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0010.452 (0) Table zx53bi4g5goptions: Total expected rows (approximate): 455
+0010.495 (0) Table zx53bi4g5goptions: Total rows added: 451 in 0.04 seconds
+0010.496 (0) Table zx53bi4g5goptions: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5goptions.table.gz - 123.1 KB)
+0010.500 (0) Table zx53bi4g5gusers: Total expected rows (approximate): 1
+0010.502 (0) Table zx53bi4g5gusers: Total rows added: 1 in 0.00 seconds
+0010.503 (0) Table zx53bi4g5gusers: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gusers.table.gz - 0.6 KB)
+0010.505 (0) Table zx53bi4g5gusermeta: Total expected rows (approximate): 27
+0010.509 (0) Table zx53bi4g5gusermeta: Total rows added: 27 in 0.00 seconds
+0010.509 (0) Table zx53bi4g5gusermeta: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gusermeta.table.gz - 2.2 KB)
+0010.512 (0) Table zx53bi4g5gcommentmeta: Total expected rows (approximate): 0
+0010.514 (0) Table zx53bi4g5gcommentmeta: Total rows added: 0 in 0.00 seconds
+0010.515 (0) Table zx53bi4g5gcommentmeta: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gcommentmeta.table.gz - 0.4 KB)
+0010.518 (0) Table zx53bi4g5gcomments: Total expected rows (approximate): 1
+0010.520 (0) Table zx53bi4g5gcomments: Total rows added: 1 in 0.00 seconds
+0010.521 (0) Table zx53bi4g5gcomments: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gcomments.table.gz - 0.7 KB)
+0010.525 (0) Table zx53bi4g5glinks: Total expected rows (approximate): 0
+0010.527 (0) Table zx53bi4g5glinks: Total rows added: 0 in 0.00 seconds
+0010.528 (0) Table zx53bi4g5glinks: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5glinks.table.gz - 0.4 KB)
+0010.532 (0) Table zx53bi4g5gpostmeta: Total expected rows (approximate): 16
+0010.535 (0) Table zx53bi4g5gpostmeta: Total rows added: 16 in 0.00 seconds
+0010.536 (0) Table zx53bi4g5gpostmeta: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gpostmeta.table.gz - 1.7 KB)
+0010.538 (0) Table zx53bi4g5gposts: Total expected rows (approximate): 11
+0010.542 (0) Table zx53bi4g5gposts: Total rows added: 11 in 0.00 seconds
+0010.543 (0) Table zx53bi4g5gposts: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gposts.table.gz - 2.2 KB)
+0010.545 (0) Table zx53bi4g5gterm_relationships: Total expected rows (approximate): 1
+0010.547 (0) Table zx53bi4g5gterm_relationships: Total rows added: 1 in 0.00 seconds
+0010.547 (0) Table zx53bi4g5gterm_relationships: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gterm_relationships.table.gz - 0.4 KB)
+0010.549 (0) Table zx53bi4g5gterm_taxonomy: Total expected rows (approximate): 14
+0010.551 (0) Table zx53bi4g5gterm_taxonomy: Total rows added: 14 in 0.00 seconds
+0010.552 (0) Table zx53bi4g5gterm_taxonomy: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gterm_taxonomy.table.gz - 0.5 KB)
+0010.555 (0) Table zx53bi4g5gtermmeta: Total expected rows (approximate): 0
+0010.558 (0) Table zx53bi4g5gtermmeta: Total rows added: 0 in 0.00 seconds
+0010.559 (0) Table zx53bi4g5gtermmeta: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gtermmeta.table.gz - 0.4 KB)
+0010.561 (0) Table zx53bi4g5gterms: Total expected rows (approximate): 14
+0010.563 (0) Table zx53bi4g5gterms: Total rows added: 14 in 0.00 seconds
+0010.564 (0) Table zx53bi4g5gterms: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gterms.table.gz - 0.5 KB)
+0010.571 (0) Table zx53bi4g5gwoocommerce_order_itemmeta: Total expected rows (approximate): 0
+0010.574 (0) Table zx53bi4g5gwoocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0010.574 (0) Table zx53bi4g5gwoocommerce_order_itemmeta: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_order_itemmeta.table.gz - 0.4 KB)
+0010.577 (0) Table zx53bi4g5gwoocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0010.580 (0) Table zx53bi4g5gwoocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0010.580 (0) Table zx53bi4g5gwoocommerce_payment_tokenmeta: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0010.583 (0) Table zx53bi4g5glayerslider: Total expected rows (approximate): 0
+0010.587 (0) Table zx53bi4g5glayerslider: Total rows added: 0 in 0.00 seconds
+0010.587 (0) Table zx53bi4g5glayerslider: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5glayerslider.table.gz - 0.4 KB)
+0010.590 (0) Table zx53bi4g5glayerslider_revisions: Total expected rows (approximate): 0
+0010.591 (0) Table zx53bi4g5glayerslider_revisions: Total rows added: 0 in 0.00 seconds
+0010.592 (0) Table zx53bi4g5glayerslider_revisions: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5glayerslider_revisions.table.gz - 0.3 KB)
+0010.595 (0) Table zx53bi4g5grevslider_css: Total expected rows (approximate): 109
+0010.600 (0) Table zx53bi4g5grevslider_css: Total rows added: 109 in 0.01 seconds
+0010.601 (0) Table zx53bi4g5grevslider_css: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_css.table.gz - 4.9 KB)
+0010.604 (0) Table zx53bi4g5grevslider_layer_animations: Total expected rows (approximate): 0
+0010.605 (0) Table zx53bi4g5grevslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0010.606 (0) Table zx53bi4g5grevslider_layer_animations: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_layer_animations.table.gz - 0.3 KB)
+0010.608 (0) Table zx53bi4g5grevslider_navigations: Total expected rows (approximate): 0
+0010.610 (0) Table zx53bi4g5grevslider_navigations: Total rows added: 0 in 0.00 seconds
+0010.611 (0) Table zx53bi4g5grevslider_navigations: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_navigations.table.gz - 0.3 KB)
+0010.613 (0) Table zx53bi4g5grevslider_sliders: Total expected rows (approximate): 0
+0010.614 (0) Table zx53bi4g5grevslider_sliders: Total rows added: 0 in 0.00 seconds
+0010.615 (0) Table zx53bi4g5grevslider_sliders: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_sliders.table.gz - 0.3 KB)
+0010.619 (0) Table zx53bi4g5grevslider_slides: Total expected rows (approximate): 0
+0010.621 (0) Table zx53bi4g5grevslider_slides: Total rows added: 0 in 0.00 seconds
+0010.622 (0) Table zx53bi4g5grevslider_slides: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_slides.table.gz - 0.3 KB)
+0010.625 (0) Table zx53bi4g5grevslider_static_slides: Total expected rows (approximate): 0
+0010.627 (0) Table zx53bi4g5grevslider_static_slides: Total rows added: 0 in 0.00 seconds
+0010.627 (0) Table zx53bi4g5grevslider_static_slides: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_static_slides.table.gz - 0.3 KB)
+0010.632 (0) Table zx53bi4g5gwoocommerce_api_keys: Total expected rows (approximate): 0
+0010.633 (0) Table zx53bi4g5gwoocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0010.634 (0) Table zx53bi4g5gwoocommerce_api_keys: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_api_keys.table.gz - 0.4 KB)
+0010.639 (0) Table zx53bi4g5gwoocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0010.643 (0) Table zx53bi4g5gwoocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0010.644 (0) Table zx53bi4g5gwoocommerce_attribute_taxonomies: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0010.649 (0) Table zx53bi4g5gwoocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0010.651 (0) Table zx53bi4g5gwoocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0010.652 (0) Table zx53bi4g5gwoocommerce_downloadable_product_permissions: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0010.656 (0) Table zx53bi4g5gwoocommerce_log: Total expected rows (approximate): 0
+0010.657 (0) Table zx53bi4g5gwoocommerce_log: Total rows added: 0 in 0.00 seconds
+0010.658 (0) Table zx53bi4g5gwoocommerce_log: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_log.table.gz - 0.4 KB)
+0010.663 (0) Table zx53bi4g5gwoocommerce_order_items: Total expected rows (approximate): 0
+0010.667 (0) Table zx53bi4g5gwoocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0010.667 (0) Table zx53bi4g5gwoocommerce_order_items: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_order_items.table.gz - 0.4 KB)
+0010.672 (0) Table zx53bi4g5gwoocommerce_payment_tokens: Total expected rows (approximate): 0
+0010.676 (0) Table zx53bi4g5gwoocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0010.677 (0) Table zx53bi4g5gwoocommerce_payment_tokens: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_payment_tokens.table.gz - 0.4 KB)
+0010.679 (0) Table zx53bi4g5gwoocommerce_sessions: Total expected rows (approximate): 5
+0010.682 (0) Table zx53bi4g5gwoocommerce_sessions: Total rows added: 5 in 0.00 seconds
+0010.683 (0) Table zx53bi4g5gwoocommerce_sessions: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_sessions.table.gz - 1 KB)
+0010.685 (0) Table zx53bi4g5gwoocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0010.686 (0) Table zx53bi4g5gwoocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0010.688 (0) Table zx53bi4g5gwoocommerce_shipping_zone_locations: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0010.692 (0) Table zx53bi4g5gwoocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0010.695 (0) Table zx53bi4g5gwoocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0010.696 (0) Table zx53bi4g5gwoocommerce_shipping_zone_methods: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0010.703 (0) Table zx53bi4g5gwoocommerce_shipping_zones: Total expected rows (approximate): 0
+0010.707 (0) Table zx53bi4g5gwoocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0010.707 (0) Table zx53bi4g5gwoocommerce_shipping_zones: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_shipping_zones.table.gz - 0.3 KB)
+0010.711 (0) Table zx53bi4g5gwoocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0010.713 (0) Table zx53bi4g5gwoocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0010.713 (0) Table zx53bi4g5gwoocommerce_tax_rate_locations: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0010.720 (0) Table zx53bi4g5gwoocommerce_tax_rates: Total expected rows (approximate): 0
+0010.722 (0) Table zx53bi4g5gwoocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0010.722 (0) Table zx53bi4g5gwoocommerce_tax_rates: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_tax_rates.table.gz - 0.4 KB)
+0010.727 (0) Table zx53bi4g5gyoast_seo_links: Total expected rows (approximate): 1
+0010.730 (0) Table zx53bi4g5gyoast_seo_links: Total rows added: 1 in 0.00 seconds
+0010.731 (0) Table zx53bi4g5gyoast_seo_links: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gyoast_seo_links.table.gz - 0.4 KB)
+0010.734 (0) Table zx53bi4g5gyoast_seo_meta: Total expected rows (approximate): 29
+0010.738 (0) Table zx53bi4g5gyoast_seo_meta: Total rows added: 29 in 0.00 seconds
+0010.739 (0) Table zx53bi4g5gyoast_seo_meta: finishing file (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gyoast_seo_meta.table.gz - 0.4 KB)
+0010.741 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5goptions.table.gz (1/36): adding to final database dump
+0010.767 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gusers.table.gz (2/36): adding to final database dump
+0010.768 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gusermeta.table.gz (3/36): adding to final database dump
+0010.768 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gcommentmeta.table.gz (4/36): adding to final database dump
+0010.769 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gcomments.table.gz (5/36): adding to final database dump
+0010.770 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5glinks.table.gz (6/36): adding to final database dump
+0010.771 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gpostmeta.table.gz (7/36): adding to final database dump
+0010.772 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gposts.table.gz (8/36): adding to final database dump
+0010.774 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gterm_relationships.table.gz (9/36): adding to final database dump
+0010.776 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gterm_taxonomy.table.gz (10/36): adding to final database dump
+0010.777 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gtermmeta.table.gz (11/36): adding to final database dump
+0010.777 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gterms.table.gz (12/36): adding to final database dump
+0010.777 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_order_itemmeta.table.gz (13/36): adding to final database dump
+0010.778 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_payment_tokenmeta.table.gz (14/36): adding to final database dump
+0010.778 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5glayerslider.table.gz (15/36): adding to final database dump
+0010.779 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5glayerslider_revisions.table.gz (16/36): adding to final database dump
+0010.780 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_css.table.gz (17/36): adding to final database dump
+0010.781 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_layer_animations.table.gz (18/36): adding to final database dump
+0010.782 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_navigations.table.gz (19/36): adding to final database dump
+0010.782 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_sliders.table.gz (20/36): adding to final database dump
+0010.782 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_slides.table.gz (21/36): adding to final database dump
+0010.783 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5grevslider_static_slides.table.gz (22/36): adding to final database dump
+0010.784 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_api_keys.table.gz (23/36): adding to final database dump
+0010.785 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_attribute_taxonomies.table.gz (24/36): adding to final database dump
+0010.786 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_downloadable_product_permissions.table.gz (25/36): adding to final database dump
+0010.787 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_log.table.gz (26/36): adding to final database dump
+0010.787 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_order_items.table.gz (27/36): adding to final database dump
+0010.788 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_payment_tokens.table.gz (28/36): adding to final database dump
+0010.788 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_sessions.table.gz (29/36): adding to final database dump
+0010.789 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_shipping_zone_locations.table.gz (30/36): adding to final database dump
+0010.789 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_shipping_zone_methods.table.gz (31/36): adding to final database dump
+0010.789 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_shipping_zones.table.gz (32/36): adding to final database dump
+0010.790 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_tax_rate_locations.table.gz (33/36): adding to final database dump
+0010.790 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gwoocommerce_tax_rates.table.gz (34/36): adding to final database dump
+0010.791 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gyoast_seo_links.table.gz (35/36): adding to final database dump
+0010.791 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db-table-zx53bi4g5gyoast_seo_meta.table.gz (36/36): adding to final database dump
+0010.792 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db.gz: finished writing out complete database file (128 KB)
+0010.799 (0) Total database tables backed up: 36 (backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db.gz, size: 140859, sha256)
+0010.806 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.807 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.807 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.807 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.808 (0) backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.808 (0) Saving backup history. Total backup size: 66.4 MB
+0010.809 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.812 (0) Cloud backup selection (1/1): none (last)
+0010.812 (0) No remote despatch: user chose no remote backup service
+0010.815 (0) Recording as successfully uploaded: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-plugins.zip (201574925843c4b5f2f99aa9c5b57ef6)
+0010.818 (0) Recording as successfully uploaded: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-themes.zip (7be7a20ff1e6ab437dc51bb47321cdd3)
+0010.821 (0) Recording as successfully uploaded: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-uploads.zip (dcd6ebbdf26fec0bf148d88f7ce459cd)
+0010.823 (0) Recording as successfully uploaded: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-others.zip (8ba063ac5e5be81d9c04d48c18704570)
+0010.827 (0) Recording as successfully uploaded: backup_2017-11-16-0821_SIKPROJECTNUTRITION_fe702d4241f2-db.gz (d3d568b96447a46cfce624a8d4b70b51)
+0010.830 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.831 (0) Number of backup sets in history: 1; groups (db): 1
+0010.832 (0) Examining (for databases) backup set with group_id=0, nonce=fe702d4241f2, datestamp=1510820480 (Nov 16 2017 08:21:20)
+0010.832 (0) This backup set is the backup set just made, so will not be deleted.
+0010.832 (0) Number of backup sets in history: 1; groups (files): 1
+0010.833 (0) Examining (for files) backup set with nonce=fe702d4241f2, datestamp=1510820480 (Nov 16 2017 08:21:20)
+0010.833 (0) This backup set is the backup set just made, so will not be deleted.
+0010.833 (0) This backup set is the backup set just made, so will not be deleted.
+0010.833 (0) This backup set is the backup set just made, so will not be deleted.
+0010.833 (0) This backup set is the backup set just made, so will not be deleted.
+0010.833 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.834 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0010.837 (0) Resume backup (fe702d4241f2, 0): finish run
+0010.842 (0) Decremented the semaphore (fd) by 1
+0010.844 (0) Semaphore (fd) unlocked
+0010.844 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.846 (0) The backup apparently succeeded and is now complete
+0010.847 (0) Fetching RSS news feed
+0010.896 (0) Fetched RSS news feed; result is a: SimplePie
+0010.900 (0) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: si.kp...
+0010.991 (0) La sauvegarde a réussie. Elle est maintenant terminée.
